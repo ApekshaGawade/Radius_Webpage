@@ -1,0 +1,97 @@
+/* CSS for NAVIGATION section*/
+.navigation
+{
+    height: 60px;
+}
+.navbar
+{
+    /* background-color: #20407f !important; */
+    background-color: #fff !important;
+}
+.nav-link
+{
+    color: black !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 17px !important;
+}
+.navbar-brand
+{
+    padding-left: 10px !important;
+}
+.navbar-collapse
+{
+    /* background-color: #20407f !important; */
+    background-color: #fff !important;
+}
+.navbar-toggler
+{padding:0rem !important;}
+/* End of CSS for NAVIGATION section*/
+/* CSS for banner */
+.banner
+{
+    height: 750px;
+    background-image: url("Cover.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.banner-content 
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    font-size:18px;
+}
+.padd
+{
+    padding:30px;
+}
+#more
+{
+    display:none;
+}
+/* end of banner */
+
+/* About start */
+.about
+{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: Tahoma, Arial;
+}
+.title
+{
+    text-align: center;
+    color: #20407f;
+    font-weight: bold;
+}
+.card-title
+{
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    font:bold 20px Tahoma, Arial;
+}
+.card-body
+{
+   padding:0.2em 0em 0em 0em !important;
+   font: 15px Tahoma, Arial;
+}
+.my-card
+{
+    width: 300px !important;
+    margin-top: 50px !important;
+    margin-bottom: 100px !important;
+    border-radius: 10px !important;
+    border: transparent !important;
+}
+
+/* About end */
+/* css for mobile */
+@media(max-width:500px){
+    .banner
+    {
+        height: 700px;
+    }
+}
